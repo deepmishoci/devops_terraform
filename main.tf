@@ -2,6 +2,7 @@ locals common_tags{
 tags={
   Managed_By="Terraform"
   Project_Name="Terraform_Project"
+  cost_center="PTQA"
 }
 resource "aws_instance" "my_instance"{
 ami_id="xxxxxxx"
